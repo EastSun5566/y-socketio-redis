@@ -36,12 +36,12 @@
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
-      "default": "./dist/index.cjs"
+      "require": "./dist/index.cjs"
     },
     "./client": {
       "types": "./dist/client/index.d.ts",
       "import": "./dist/client/index.js",
-      "default": "./dist/client/index.cjs"
+      "require": "./dist/client/index.cjs"
     }
   },
   "repository": {
