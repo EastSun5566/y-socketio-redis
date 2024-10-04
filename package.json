@@ -1,5 +1,5 @@
 {
-  "name": "@hackmd/y-socketio-redis",
+  "name": "y-socketio-redis",
   "version": "0.0.8",
   "description": "Scalable Socket.IO provider for Yjs using redis",
   "sideEffects": false,
@@ -30,13 +30,16 @@
     "src/*"
   ],
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "default": "./dist/index.cjs"
     },
     "./client": {
+      "types": "./dist/client/index.d.ts",
       "import": "./dist/client/index.js",
       "default": "./dist/client/index.cjs"
     }
